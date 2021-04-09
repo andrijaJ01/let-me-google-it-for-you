@@ -14,9 +14,13 @@ USER_AGENT=Reddit app useragent
 
 + client id and secret are [[https://reddit.com/prefs/apps][found here]] after creating app,
 + you can read more about [[https://github.com/reddit-archive/reddit/wiki/API#rules][user agent here]].
-+ Install typer
-  #+begin_src bash
- pip install typer
-  #+end_src
 
 ** Usage
++ Clone this repo
+  #+beggin_src bash
+    git clone https://github.com/andrijaJ01/let-me-google-it-for-you.git
+  #+end_src
++ Install typer
+  #+begin_src bash
+    pip install typer
+  #+end_src
