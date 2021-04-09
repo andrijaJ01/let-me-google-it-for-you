@@ -25,3 +25,8 @@ USER_AGENT=Reddit app useragent
   #+begin_src bash
     pip install typer
   #+end_src
++ Run it with
+  #+begin_src bash
+  python main.py --help
+  #+end_src
+  to see help and usage information.
