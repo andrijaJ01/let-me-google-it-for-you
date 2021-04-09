@@ -12,3 +12,6 @@ USERNAME=reddit_bot_username
 PASSWORD=reddit_bot_password
 USER_AGENT=Reddit app useragent
 #+end_src
+
+- client id and secret are [here](https://reddit.com/prefs/apps).
+- you can read more about [user agent here](https://github.com/reddit-archive/reddit/wiki/API#rules)
