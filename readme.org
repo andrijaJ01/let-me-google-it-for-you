@@ -1,7 +1,6 @@
 * Introduction
-This is python script that uses [praw](https://praw.readthedocs.io/en/latest/) to scrape specified subreddit for questions and post reply with link to [lmgtfy.com](https://lmgtfy.com/).
-
-** important
+This is python script that uses [[https://praw.readthedocs.io/en/latest/]] to scrape specified subreddit for questions and post reply with link to [[https://lmgtfy.com/]]
+** Important
 make sure to rename */config.ini.example/* to */config.ini/* and to edit options as stated:
 #+begin_src
 ;config.ini.example
@@ -13,5 +12,5 @@ PASSWORD=reddit_bot_password
 USER_AGENT=Reddit app useragent
 #+end_src
 
-- client id and secret are [here](https://reddit.com/prefs/apps).
-- you can read more about [user agent here](https://github.com/reddit-archive/reddit/wiki/API#rules)
+- client id and secret are [[https://reddit.com/prefs/apps]]
+- you can read more about [[https://github.com/reddit-archive/reddit/wiki/API#rules]]
