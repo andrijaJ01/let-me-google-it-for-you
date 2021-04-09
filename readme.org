@@ -16,9 +16,10 @@ USER_AGENT=Reddit app useragent
 + you can read more about [[https://github.com/reddit-archive/reddit/wiki/API#rules][user agent here]].
 
 ** Usage
-+ Clone this repo
++ Clone this repository and navigate to it
   #+begin_src bash
     git clone https://github.com/andrijaJ01/let-me-google-it-for-you.git
+    cd let-me-google-it-for-you
   #+end_src
 + Install typer
   #+begin_src bash
