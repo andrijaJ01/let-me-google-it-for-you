@@ -17,7 +17,7 @@ USER_AGENT=Reddit app useragent
 
 ** Usage
 + Clone this repo
-  #+beggin_src bash
+  #+begin_src bash
     git clone https://github.com/andrijaJ01/let-me-google-it-for-you.git
   #+end_src
 + Install typer
