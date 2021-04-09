@@ -1,5 +1,5 @@
 * Introduction
-This is python script that uses [[https://praw.readthedocs.io/en/latest][praw]] to scrape specified subreddit for questions and post reply with link to [[https://lmgtfy.app][lmgtfy]] page
+This is python script that uses [[https://praw.readthedocs.io/en/latest][praw]] to scrape specified subreddit for questions and post reply with link to [[https://lmgtfy.app][lmgtfy]] page. It uses [[https://typer.tiangolo.com/][typer]].
 ** Important
 make sure to rename */config.ini.example/* to */config.ini/* and to edit options as stated:
 #+begin_src
@@ -14,3 +14,9 @@ USER_AGENT=Reddit app useragent
 
 + client id and secret are [[https://reddit.com/prefs/apps][found here]] after creating app,
 + you can read more about [[https://github.com/reddit-archive/reddit/wiki/API#rules][user agent here]].
++ Install typer
+  #+begin_src bash
+ pip install typer
+  #+end_src
+
+** Usage
